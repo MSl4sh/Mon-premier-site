@@ -1,0 +1,224 @@
+/* mise en forme du premier tableau */
+
+.table1 td,
+.table1 th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    caption-side: bottom; 
+    /* emplacement au dessous ou au dessus du caption (titre du tableau) */
+}
+
+
+.table1 th {
+    background-color: #214567;
+    color: white;
+}
+
+.table1 td:hover {
+    background-color: #306597;
+    color: white;
+}
+
+/* mise en forme de deuxième tableau */
+
+.table2 th{
+    width: 25%;
+}
+
+.table2{
+    border-collapse: separate;
+    border-spacing: 5px 10px;
+}
+
+.table2 tr:nth-child(even){
+    background-color: rgb(215, 215, 215);
+}
+
+/* mise en forme du troisième tableau */
+
+.table3{
+    empty-cells: hide;
+    border-spacing: 0ch; 
+   
+}
+
+.table3 td, .table3 th{
+    border: 0.5px solid #214567;
+}
+.table4 td{
+    width: 20%;
+}
+
+.vacances{
+    background-color: #306597;
+}
+
+/* css exercice 1 */
+
+.ex1{
+padding: 5px;
+border-radius: 2.5px;
+border: 2px solid black;
+width: 100%;
+border-spacing: 10px 5px;
+caption-side: bottom;
+}
+
+#nom{
+    background-color: #306597;
+    color:rgb(255, 255, 255)
+}
+#mail{
+    background-color: rgba(111, 171, 33, 0.782);
+    color: white;
+}
+#date{
+    background-color: rgba(9, 171, 171, 0.703);
+    color: white;
+}
+
+.ex1 th, .ex1 td{
+    border: 2px solid black;
+    padding: 5px;
+    border-spacing: 10px 5px;
+}
+
+.ex1 tr:hover > td{
+    color: white;
+    background-color: #3c3e40;
+}
+
+.bleu{
+    color:#4189cc;
+}
+
+.vert{
+    color: rgba(111, 171, 33, 0.782);
+}
+
+.cyan{
+    color: rgba(9, 171, 171, 0.703)
+}
+
+.ex1_2{
+    width:100%;
+    border-collapse: collapse;
+}
+.ex1_2 tr th, .ex1_2 tr td{
+    padding: 10px;
+    
+}
+.ex1_2 td:nth-child(even){
+    background-color: #c2c2c2;
+}
+
+#tr1, #tr2{
+    border-bottom: 2px solid black;
+}
+
+.ex1_2 td:hover{
+    background-color: #3c3e40;
+    color:white;
+}
+
+.orange{
+    color: rgb(255, 145, 0);
+    font-style: italic;
+}
+
+/* Exercice 2 */
+
+#ex2{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #343434;
+    
+}
+#ex2 td, #ex2 th{
+    padding: 10px;
+    
+}
+
+#ex2 th{
+    background-color: #737980;
+    color: white;
+    
+}
+
+#ex2 tr:hover td{
+    background-color: #000000;
+    color: white;
+}
+
+/* Exercice 3 */
+
+#ex3 {
+    color: blue;
+    width: 100%;
+}
+
+#ex3 td{
+    text-align: center;
+}
+
+#ex3 th, #ex3 td{
+    padding: 10px;
+}
+
+#liste{
+    background-color: #343434;
+    color: white;
+}
+
+#sessions{
+    background-color: #8e959c;
+    color: white;
+}
+
+#ex3 td{
+    background-color: #dddddd;
+}
+
+.session{
+    background-color: rgba(104, 119, 151, 0.925);
+    color: white;
+}
+
+#ex3 tr:hover td{
+    background-color: #306597;
+    color: white;
+}
+
+/* exercice 4 */
+
+.ex4{
+    width: 100%;
+    max-height: 10px;
+    border-collapse: collapse;
+}
+.ex4 th{
+    background-color: #414549;
+    color: #0f7ce2;
+    font-size: bolder;
+    padding: 10px;
+}
+tbody {
+    overflow-y: scroll;
+}
+
+.ex4 td{
+    padding: 10px;
+    background-color: #343434;
+    color:#757575;
+    text-align: center;
+    
+    
+
+}

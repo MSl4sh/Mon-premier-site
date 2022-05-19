@@ -1,0 +1,190 @@
+/* remise à 0 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* mise en forme générale */
+
+body {
+    background-color: rgb(245, 245, 245);
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.25;
+}
+
+#photo img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+/* mise en place du header et de la navigation */
+
+header {
+    color: #fff;
+    background-color: rgba(163, 203, 77, 0.9);
+}
+
+header div {
+    height: 25vh;
+    background-image: url(../img/banner-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: center;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav li a {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 7px;
+    text-decoration: none;
+}
+
+header nav li a {
+    /* animation des hover du menu */
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav li a:hover {
+
+    color: rgb(186, 247, 54);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: .3s;
+}
+
+/* mise en place du main */
+
+main {
+    max-width: 1024px;
+    background-color: rgb(235, 235, 235);
+    margin: 0 auto;
+    padding: 24px 18px;
+    border-radius: 20px;
+
+}
+
+main h1 {
+    text-align: center;
+    color: #214567;
+    font-size: 2.6em;
+    font-weight: 800;
+    margin-bottom: 24px;
+    border-bottom: 1px dashed;
+    padding-bottom: 24px;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+main h2 {
+
+    font-size: 1.6em;
+    font-weight: 300;
+    padding: 7px;
+    color: white;
+    background-color: #214567;
+    margin-bottom: 18px;
+    border-radius: 15px;
+}
+
+main h3 {
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+
+main article {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+
+}
+
+/* mise en place des figures du main */
+
+main figure {
+
+    margin-bottom: 12px;
+}
+
+main figcaption {
+
+    background-color: #383b3f;
+    color: rgb(242, 242, 242);
+    padding: 7px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    border-radius: 20px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.7);
+    color: white;
+    font-size: 1em;
+
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 1em;
+}
+
+#dev {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer img {
+    height: 100px;
+    width: auto;
+}
+
+@media screen and (min-width: 780px) {
+
+    #galerie figure {
+        width: 49.5%;
+
+    }
+
+    .flexing {
+        display: flex;
+
+    }
+
+    #galerie {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+}
